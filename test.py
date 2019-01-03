@@ -1143,6 +1143,19 @@ from dateutil import parser
 #     print b
 # s=reduce(lambda x,y:x+y,s)
 # print s
-s=raw_input('please input a string:')
+# s=raw_input('please input a string:')
 
 
+class cat():
+    def eat(self):
+        print '吃'
+    def color(self,color):
+        self.color=color
+    def run(self):
+        print 'cat running'
+        
+mimi=cat()
+mimi.eat()
+mimi.run()
+mimi.color='bai'
+mimi.color()
